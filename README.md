@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/theplankmeister/form-data-transposer.svg?branch=master)](https://travis-ci.com/theplankmeister/form-data-transposer)
+
 # Transpose data from decoded POSTed JSON to form data request parameters in Symfony
 You may run into the situation where your Symfony app is not necessarily receiving POST requests that contain form data, but contain JSON instead, for example, if your front-end is sending XHR requests as `application/json` rather than actually submitting an HTML form. If you're performing form validation using `symfony/form`, you'll notice that `Form::handleRequest(Request $request)` will completely ignore the JSON in the request body of `application/json` requests.
 
