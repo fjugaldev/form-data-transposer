@@ -1,0 +1,8 @@
+suites:
+  default:
+    namespace: ThePlankmeister\FormDataTransposer
+    psr4_prefix: ThePlankmeister\FormDataTransposer
+
+formatter.name: pretty
+stop_on_failure: false
+no_code_generation: true

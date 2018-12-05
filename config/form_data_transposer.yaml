@@ -1,0 +1,7 @@
+services:
+    json_form_data_transposer:
+        class: ThePlankmeister\FormDataTransposer\Listener\JsonToFormDataTransposerListener
+        arguments:
+            - '@Symfony\Component\Serializer\Encoder\DecoderInterface'
+        tags:
+            - { name: kernel.event_listener, event: kernel.request, method: transposeData }

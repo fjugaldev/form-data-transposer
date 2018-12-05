@@ -1,0 +1,27 @@
+{
+    "name": "theplankmeister/form-data-transposer",
+    "description": "Transposes JSON data from the request into form data on the request.",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Plank",
+            "email": "plankmeister@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/serializer": "^4.2",
+        "symfony/http-kernel": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "ThePlankmeister\\FormDataTransposer\\": "src"
+        }
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^5.1",
+        "friendsofphp/php-cs-fixer": "^2.13",
+        "phpstan/phpstan": "^0.10.6"
+    }
+}
