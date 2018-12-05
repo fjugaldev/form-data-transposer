@@ -1,7 +1,6 @@
 {
     "name": "theplankmeister/form-data-transposer",
     "description": "Transposes JSON data from the request into form data on the request.",
-    "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
         {
